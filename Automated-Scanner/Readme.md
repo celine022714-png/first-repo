@@ -14,14 +14,14 @@ Port Scanner/ Vulnerability Scanner
   5. Logging and Export- timestamped logs
   6. Safe & Legal Scanning Warnings- Built-in disclaimer reminding users to only scan systems they own or have permission to test.
  
-+ Instructions in Running the Codes (2 OPTIONS)
++ Instructions in Running the Codes 
   1. Prerequesites
      OS: Windows 10/11
      Installed: Anaconda environment : https://www.anaconda.com/download
      VS Code: https://code.visualstudio.com/download
      VS Code Python extension (for interpreter + Run button)
 
-  2. Run the Port Scanner code (.py file)
+  + Running the Port Scanner code (.py file)
      Option A: You can run it from the VS Code Terminal by simply typing "python port_scanner.py (name of your .py file)
      Option B: Using the Green Run Button at the top right of the editor click Run Pyhon File.
 
