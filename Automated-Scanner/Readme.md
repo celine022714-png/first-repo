@@ -21,9 +21,13 @@ Port Scanner/ Vulnerability Scanner
      VS Code: https://code.visualstudio.com/download
      VS Code Python extension (for interpreter + Run button)
 
-  + Running the Port Scanner code (.py file)
+
++ Running the Port Scanner code (.py file)
+  
      Option A: You can run it from the VS Code Terminal by simply typing "python port_scanner.py (name of your .py file)
+  
      Option B: Using the Green Run Button at the top right of the editor click Run Pyhon File.
+  
 
 + ADDITIONAL INFORMATION
  In order to better understand the purpose of each line of code I used in my Python script, I also included comments with my code.
