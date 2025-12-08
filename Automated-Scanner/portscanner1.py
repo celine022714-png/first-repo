@@ -41,8 +41,9 @@ def scan_range(ip,start_port, end_port): #Defines a function to scan many ports 
 
 
 if __name__ == "__main__": 
-    target_ip = "192.168.1.101"  #Sets the IP address you want to scan
+    target_ip = "192.168.1.101"  #Sets the IP address you want to scan,for example "localhost"
     start = 20 #First port in the scanning range
     end = 80 #Last port in the scanning range
 
     scan_range(target_ip, start, end)
+
