@@ -1,5 +1,17 @@
 Port Scanner/ Vulnerability Scanner
 
-+ Project Objectives and Features
++ Project Objectives
+  1. Identify Open and Closed Ports- Detect which TCP/UDP ports on a target system are open, closed, or filtered to understand system exposure.
+  2. Assess Network Security Posture- Determine whether services are accessible both internally as well as externally to assess potential attack surfaces.
+  3. Detect Running Services and Versions- Gather info about services (e.g., SSH, HTTP, FTP) and their versions to help identify outdated or vulnerable software.
+  4. Assist in Compliance and Hardening Wfforts- Support auditing tasks by verifying that only authorized ports and services are exposed.
+ 
++ Project Features
+  1. Port Scanning Capability- TCP/SYN scannning, ability to scan a single port, or ranges. Detect open, closed, and filtered ports.
+  2. Error Handling and Status Codes- Reports socket error codes. Clearly displays whether a port is open, closed, timeout, or unreachable.
+  3. Configurable Scan Options- Users can modify their target IP, port range, ability to choose common port presets, and adjustable timeout values.
+  4. Multi-threaded or Asynchronous Scanning- Faster scanning by checking multiple ports simultaneously.
+  5. Logging and Export- timestamped logs
+  6. Safe & Legal Scanning Warnings- Built-in disclaimer reminding users to only scan systems they own or have permission to test.
   
   
