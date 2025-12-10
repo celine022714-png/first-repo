@@ -1,3 +1,7 @@
+#DISCLAIMER# ONLY SCAN NETWORKS THAT YOU OWN OR HAVE PERMISSION TO SCAN.
+
+
+
 import socket #Creates network connection
 
 ERROR_CODES = {  #Creates a dictionary called ERROR_CODES
@@ -61,5 +65,6 @@ if __name__ == "__main__":
     target_ip = "192.168.1.101" #Set the IP that you want to scan
     common_ports = [21, 22, 80, 443] #Port numbers that you want to scan
     scan_selected_ports(target_ip, common_ports)
+
 
 
