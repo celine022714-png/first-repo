@@ -1,3 +1,6 @@
+#DISCLAIMER# ONLY SCAN NETWORKS THAT YOU OWN OR HAVE PERMISSION TO SCAN.
+
+
 Port Scanner/ Vulnerability Scanner
 
 + Project Objectives
