@@ -1,3 +1,6 @@
+#DISCLAIMER# ONLY SCAN NETWORKS THAT YOU OWN OR HAVE PERMISSION TO SCAN.
+
+
 import socket #Imports the socket library so we can create TCP connections
 
 ERROR_CODES = {  #A list of dictionary called Error codes
@@ -46,4 +49,5 @@ if __name__ == "__main__":
     end = 80 #Last port in the scanning range
 
     scan_range(target_ip, start, end)
+
 
